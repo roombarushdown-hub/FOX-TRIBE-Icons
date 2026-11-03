@@ -18,8 +18,8 @@ jobs:
       - uses: android-actions/setup-android@v4
         with:
           packages: 'platform-tools'
-      - name: Install official Android SDK tools
-        run: sdkmanager "platforms;android-35" "build-tools;35.0.0" "platform-tools" "emulator" "system-images;android-35;google_apis;x86_64"
+      - name: Install SDK for compiling (no emulator dependency)
+        run: sdkmanager "platforms;android-35" "build-tools;35.0.0" "platform-tools"
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
@@ -38,6 +38,14 @@ jobs:
           "$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging "$APK" | tee verification/badging.txt
           python3 tools/verify_fox_god.py "$APK" | tee verification/assets.txt
           sha256sum "$APK" > verification/SHA256SUMS.txt
+      - name: Install emulator image (after APK verified)
+        run: |
+          for attempt in 1 2 3; do
+            if sdkmanager "emulator" "system-images;android-35;google_apis;x86_64"; then exit 0; fi
+            echo "System image install failed on attempt $attempt"
+            sleep 5
+          done
+          exit 1
       - name: Install and launch on official Android emulator
         run: bash tools/emulator_smoke_test.sh
       - name: Retain APK and verification evidence
