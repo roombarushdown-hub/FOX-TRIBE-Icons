@@ -2,7 +2,7 @@
 set -euo pipefail
 mkdir -p verification
 if [[ -e /dev/kvm ]]; then sudo chmod a+rw /dev/kvm; fi
-printf 'no\n' | "$ANDROID_HOME/cmdline-tools/latest/bin/avdmanager" create avd --force --name fox-tribe --package 'system-images;android-35;google_apis;x86_64'
+printf 'no\n' | timeout 90 "$ANDROID_HOME/cmdline-tools/latest/bin/avdmanager" create avd --force --name fox-tribe --device 'pixel' --package 'system-images;android-35;google_apis;x86_64'
 "$ANDROID_HOME/emulator/emulator" -avd fox-tribe -no-window -no-audio -no-boot-anim -no-snapshot -gpu swiftshader_indirect -camera-back none -camera-front none > verification/emulator.log 2>&1 &
 EMU_PID=$!
 trap 'kill "$EMU_PID" 2>/dev/null || true' EXIT
