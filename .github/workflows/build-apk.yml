@@ -1,14 +1,14 @@
-name: Build and verify FOX TRIBE APK
+name: Build and verify FOX TRIBE Fox God APK
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [fox-god-edition-production]
 permissions:
   contents: read
 jobs:
   build-and-verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
@@ -23,28 +23,28 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
-      - name: Restore and verify approved original artwork
+      - name: Restore and verify exact Fox God artwork
         run: |
-          python3 tools/materialize_assets.py
-          python3 tools/verify_pack.py
-      - name: Compile with Android Gradle Plugin and official SDK
+          python3 tools/materialize_fox_god.py
+          python3 tools/verify_fox_god.py
+      - name: Compile official Android debug APK
         run: gradle --no-daemon :app:assembleDebug :app:lintDebug
-      - name: Inspect APK and verify signature, alignment and original image bytes
+      - name: Verify signed APK and exact Fox God icon bytes
         run: |
           mkdir -p verification
           APK=app/build/outputs/apk/debug/app-debug.apk
           "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs "$APK" | tee verification/signature.txt
           "$ANDROID_HOME/build-tools/35.0.0/zipalign" -c -P 16 -v 4 "$APK" > verification/alignment.txt
           "$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging "$APK" | tee verification/badging.txt
-          python3 tools/verify_pack.py "$APK" | tee verification/assets.txt
+          python3 tools/verify_fox_god.py "$APK" | tee verification/assets.txt
           sha256sum "$APK" > verification/SHA256SUMS.txt
       - name: Install and launch on official Android emulator
         run: bash tools/emulator_smoke_test.sh
-      - name: Retain APK and verification evidence for inspection
+      - name: Retain APK and verification evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: FOX_TRIBE_INTERNAL_BUILD_AND_EVIDENCE
+          name: FOX_TRIBE_FOX_GOD_APK_AND_EVIDENCE
           if-no-files-found: error
           path: |
             app/build/outputs/apk/debug/app-debug.apk
