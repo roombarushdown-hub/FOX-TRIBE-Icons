@@ -1,0 +1,111 @@
+number,app_name,resource_name
+1,Amazon Shopping,fox_001_amazon_shopping
+2,Affirm,fox_002_affirm
+3,AntennaPod,fox_003_antennapod
+4,Authenticator,fox_004_authenticator
+5,AXS,fox_005_axs
+6,Anker soundcore,fox_006_anker_soundcore
+7,Bose,fox_007_bose
+8,Banking,fox_008_banking
+9,ChatGPT,fox_009_chatgpt
+10,Credit One,fox_010_credit_one
+11,Calculator,fox_011_calculator
+12,Camera,fox_012_camera
+13,Clock,fox_013_clock
+14,Chrome,fox_014_chrome
+15,Calendar,fox_015_calendar
+16,Capital One,fox_016_capital_one
+17,Contacts,fox_017_contacts
+18,Drive,fox_018_drive
+19,DAZN,fox_019_dazn
+20,DeepL,fox_020_deepl
+21,eBay,fox_021_ebay
+22,ElevenReader,fox_022_elevenreader
+23,ExpressVPN,fox_023_expressvpn
+24,Eight Sleep,fox_024_eight_sleep
+25,ElevenLabs,fox_025_elevenlabs
+26,Fidelity,fox_026_fidelity
+27,Files,fox_027_files
+28,Factor_,fox_028_factor
+29,Foodsby,fox_029_foodsby
+30,Ford,fox_030_ford
+31,Feedback,fox_031_feedback
+32,Find Hub,fox_032_find_hub
+33,Grubhub,fox_033_grubhub
+34,Gemini,fox_034_gemini
+35,Gmail,fox_035_gmail
+36,Google,fox_036_google
+37,Google TV,fox_037_google_tv
+38,Gboard,fox_038_gboard
+39,Hue,fox_039_hue
+40,Happen Bank,fox_040_happen_bank
+41,Home,fox_041_home
+42,HHOLOVE,fox_042_hholove
+43,HID Mobile Access,fox_043_hid_mobile_access
+44,HP,fox_044_hp
+45,Identity Defender,fox_045_identity_defender
+46,Immich,fox_046_immich
+47,Indeed Job Search,fox_047_indeed_job_search
+48,IntelliDrive® 365,fox_048_intellidrive_365
+49,iRobot,fox_049_irobot
+50,Jellyfin,fox_050_jellyfin
+51,Klarna,fox_051_klarna
+52,Keep Notes,fox_052_keep_notes
+53,Kobo Books,fox_053_kobo_books
+54,LinkedIn,fox_054_linkedin
+55,Messages,fox_055_messages
+56,MapQuest,fox_056_mapquest
+57,Maps,fox_057_maps
+58,Monarch,fox_058_monarch
+59,Meet,fox_059_meet
+60,My Pixel,fox_060_my_pixel
+61,NHL Fantasy Stars,fox_061_nhl_fantasy_stars
+62,Nest,fox_062_nest
+63,Now Playing,fox_063_now_playing
+64,Open Office Viewer,fox_064_open_office_viewer
+65,Proton Mail,fox_065_proton_mail
+66,Preply,fox_066_preply
+67,Photos,fox_067_photos
+68,Passwords,fox_068_passwords
+69,PayPal,fox_069_paypal
+70,Play Store,fox_070_play_store
+71,Phone,fox_071_phone
+72,Panera,fox_072_panera
+73,ParkMobile,fox_073_parkmobile
+74,ParkWhiz,fox_074_parkwhiz
+75,Patreon,fox_075_patreon
+76,Protection 360,fox_076_protection_360
+77,Pure Essence Icons,fox_077_pure_essence_icons
+78,Pixel Studio,fox_078_pixel_studio
+79,Robinhood,fox_079_robinhood
+80,Ring,fox_080_ring
+81,Rocket Mortgage,fox_081_rocket_mortgage
+82,Signal,fox_082_signal
+83,Steam,fox_083_steam
+84,Settings,fox_084_settings
+85,Schwab,fox_085_schwab
+86,Skullcandy,fox_086_skullcandy
+87,SoundHound,fox_087_soundhound
+88,Surest,fox_088_surest
+89,Sound Amplifier,fox_089_sound_amplifier
+90,Safety,fox_090_safety
+91,Screenshots,fox_091_screenshots
+92,T-Life,fox_092_t_life
+93,T-Mobile Fiber,fox_093_t_mobile_fiber
+94,Tailscale,fox_094_tailscale
+95,TVTropes,fox_095_tvtropes
+96,Travelers,fox_096_travelers
+97,Ticketmaster,fox_097_ticketmaster
+98,Toshiba AC NA,fox_098_toshiba_ac_na
+99,UCHealth,fox_099_uchealth
+100,Vivaldi,fox_100_vivaldi
+101,Venmo,fox_101_venmo
+102,VolleyGirls,fox_102_volleygirls
+103,Wallet,fox_103_wallet
+104,WhatsApp,fox_104_whatsapp
+105,WeatherFront,fox_105_weatherfront
+106,XBOX,fox_106_xbox
+107,YouTube,fox_107_youtube
+108,YT Music,fox_108_yt_music
+109,Zoom,fox_109_zoom
+110,Duolingo,fox_110_duolingo

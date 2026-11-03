@@ -1,0 +1,8 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'com.foxtribe.icons'
+ compileSdk 35
+ buildTypes { debug { crunchPngs false } }
+ androidResources { noCompress += ['png'] }
+ defaultConfig { applicationId 'com.foxtribe.icons'; minSdk 26; targetSdk 35; versionCode 1; versionName '0.1-test' }
+}

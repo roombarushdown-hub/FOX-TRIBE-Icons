@@ -1,0 +1,674 @@
+{
+  "archive_sha256": "9dc55e6a10460ad4e8eaa9ac96ad813c994fcbecc0d95c0d76840fb5b7fa90a4",
+  "files": {
+    "QA_001-055.jpg": "443fc0a819c1fb0fe1afad689b9cf3bcb824651284fb0fcf06a0a24faeb44c9c",
+    "QA_056-110.jpg": "a18a4e94a54a685496ec1a8d499c3300dba267b05fb3fc5e976cfe12bbdac075",
+    "README.txt": "fc64c736fc2f465e1f5dc7290a0e200663ec8763790d8494cfcae14aeb6a7e59",
+    "icons/001_amazon_shopping.png": "ef1502c8e8f3e1761e33d1173460188403000c424989eb581e66ba64b7b45255",
+    "icons/002_affirm.png": "57488f61eb4fd72090a5307c02e7f0def4566b24cef8cd3e287f146716c94920",
+    "icons/003_antennapod.png": "70c4d6d10cc0158953adf228041e70c926163de0a96e5109acc396f43220f013",
+    "icons/004_authenticator.png": "55893e01a61352da35549f62499e58aa65ace4c5fd5c99c0327a220cc2ab14fe",
+    "icons/005_axs.png": "26a4a8a58ddfc37b033d959115e75b2f8a41b6f41557d46da923a9d0953f26f1",
+    "icons/006_anker_soundcore.png": "5b62c0fe5391e696bed608fd906b54f1c6eb8bfbe201281626af709f6344e266",
+    "icons/007_bose.png": "735581974768ec8678e549b59d8563ffbd044dfba2f60ce9ad56a6faaeebd32b",
+    "icons/008_banking.png": "973b3020d2eebb91a7bbe7baf22748e9320c8aa99e27b2f5544ab1045b028f51",
+    "icons/009_chatgpt.png": "7ec7953821d826bb556230112c7c78c206700422fed32a8319dd863438d2d1f5",
+    "icons/010_credit_one.png": "a232399a2c0f37e34a594f42cf34d7c4ad4c77e4fa374e87d135d8066b775688",
+    "icons/011_calculator.png": "a6f069ef01eff75abea8595781454210579b777d6edc9bd2eb104fc31055bf6d",
+    "icons/012_camera.png": "88a5ec648a8b262dff3f2c562fa55c7321a45b87d1b698a643c76223c60a156c",
+    "icons/013_clock.png": "6da6310d56a4975709f1cff9b58192eabc89931fea2dc1fceb7fbf690e9f6246",
+    "icons/014_chrome.png": "da0ba6b8bd4a6bcc17a9f8a202d06ec2c4cf1cb954a8c24d8855849c980d9ddb",
+    "icons/015_calendar.png": "4742cd5522561ff95730e4f251566a9ae88dca13fed9501b99daf10dc1571749",
+    "icons/016_capital_one.png": "5c67fd22db51b2a09e4176a2f849f65ededa8f07874b5c4c077ee2e99f2cbe06",
+    "icons/017_contacts.png": "ea3843e53629fdc0e212155659486d8bea93ba23a7c01eb0d7a63f580bd25b47",
+    "icons/018_drive.png": "370de4a60e4fec5207c62974407cf1d0258bd206550f76757c9892854b780de8",
+    "icons/019_dazn.png": "5afd0918c88b6d41282c1b4bb3cf72becd4fc55b63fc1274b58e3368031e10a2",
+    "icons/020_deepl.png": "c6542228d0f7b820ebe1dc998db8bfbc3fa2eaa314608410c0600800d33a4470",
+    "icons/021_ebay.png": "3d54867a549faa771b7d078b960f9c206a17c7534d560f58be39f9a305a21a9c",
+    "icons/022_elevenreader.png": "6b72dd903206701c0b34885c9bf433af0f899314535b0975e7a9e0def3e2350e",
+    "icons/023_expressvpn.png": "8103e280f884e4b1a58e7ad253c589d4c8c5be8aad550270e484822a7b42711c",
+    "icons/024_eight_sleep.png": "4a37cd3c5ac6eec88e67abe6ebc8f6bd128ebc8fed70694faee43237d4f15898",
+    "icons/025_elevenlabs.png": "b33cc05c1995c36da7c0baa333fa19bda468a05982b8224a7055481064d1a497",
+    "icons/026_fidelity.png": "ae7145cfd643cbf0f84613183e4fbb19084a5a2280ccc629e99d87fcd3540ec7",
+    "icons/027_files.png": "595e2b66b3a444535e7155d38985e976867bdb22e233e89940f4fdb879496091",
+    "icons/028_factor.png": "f96092c6ac3bf7964e09bc1984cafeeffdc5b18411dc9d06d092952e97aa7c12",
+    "icons/029_foodsby.png": "5ee4b15596b77da4fef15f09672ddebcd5bb40292a0fc56cd442cadb1bed6823",
+    "icons/030_ford.png": "deb9672192393728411c3b0e4ad251f8b9866b5f32b68628c383fab774c128bb",
+    "icons/031_feedback.png": "3781c5fa6b27f4855d14e1ee254d5cc82fa34641bae215f81e8d142b64561736",
+    "icons/032_find_hub.png": "5e5f32cc94d6d7e8552a8084e0b12ac13b0f8edf55955060851186f3642154e6",
+    "icons/033_grubhub.png": "a4b94ed3f938b3a587cad7a6857a650d24d7ca8a8c26dcad87555f88eda10945",
+    "icons/034_gemini.png": "bebc736bace7ae7d652f27237fee05085d987ec7416e6fcfed6960ac5a7577ed",
+    "icons/035_gmail.png": "d18354a483b45115b4c66515b5fa1b7583e66e57d407fc8cf835cce0e7e3ca2f",
+    "icons/036_google.png": "83200797bdea1818282e65810fa505d068c7a181ded955c983484d969b847a19",
+    "icons/037_google_tv.png": "e8a6216e3bc36af4c8905b0d2aef15e1f782807d04900cf74673e66997b9ad77",
+    "icons/038_gboard.png": "b36e52c2e44dbfb0848102697930d7cc29b4d580b8e3bdc8189446825b874d8d",
+    "icons/039_hue.png": "027479f433533fb5195e383f390aa2d305f81202cda150342bb0481423fabee9",
+    "icons/040_happen_bank.png": "631ef7f87e178b221de2570eab4fa547622bc2af1704aaee81c74edffcdb00d5",
+    "icons/041_home.png": "5ebe0356b790983fc04ac67b945670ca202a66a6e2673bf6109520e627c20f59",
+    "icons/042_hholove.png": "3cb32e5e1416b7cfb94490bde6240a3b0a6e470c9e406c40d3444cbf7dd97669",
+    "icons/043_hid_mobile_access.png": "5f67b25ef17c3083a1a491a3892aba8e1bc22e4062e2a58762192565d19d46d3",
+    "icons/044_hp.png": "f1bdbc5b8d614fbeedef41b015eb482608758b8523c1229de204d4b2574c1f0a",
+    "icons/045_identity_defender.png": "ee5770bb1c0965666acd9134cbdfaee89c8b79a1b5a8cbb9f8dfc4e659ea91c0",
+    "icons/046_immich.png": "164d4f961ca9341a1dc468761286bfd2ad1297904ff3011cd7eaab290162f015",
+    "icons/047_indeed_job_search.png": "5d0d13ee9b28a6d73b7c06911220a5ddcaf417d871966e6ef04b9acaa9f23b3e",
+    "icons/048_intellidrive_365.png": "16f58fde91e7b558a8feb204703c27f7406b1d2b35b45a37f7283550184cf5bf",
+    "icons/049_irobot.png": "e92a38d2f7f6dc82cd97148af88952d6fdc0f19f5deca32fe71bae91fd0e1ad7",
+    "icons/050_jellyfin.png": "d56dce9880c4e38f20027e558973f3f165e07fcfdb0e68cafd7baae68cc381a7",
+    "icons/051_klarna.png": "01732119b3fd8e666c4e09361d21a60f2ea7cfa794060be9487ddfd9e40cbf7c",
+    "icons/052_keep_notes.png": "533d1c6228bf97bdecc55fb2fce24dfc0276a7647a46b0d78ace5fab747b3fa7",
+    "icons/053_kobo_books.png": "760446bac3e7bf2312ecbc8c4ebcf5d1740cb3e677142ba5b0d582acf0d67725",
+    "icons/054_linkedin.png": "0b8b854dc973dd98369fa6730b0a6d502dd446ab9aa25b3b3640161b59c39953",
+    "icons/055_messages.png": "6e073a71380ed5121cab3a13dccd699f9f5d462ee5b68b50a312bbdafae91705",
+    "icons/056_mapquest.png": "5c61b6cc83c2394833a4bb9666b4e54b4a7d11bff2768cb770ece9bebef955a8",
+    "icons/057_maps.png": "bc068e01a98d28ff8eead01d2770c71c63e9a4af9dcda29e9665e735960ec349",
+    "icons/058_monarch.png": "0100a0fafe6a7a7a39c87d028f13071cae67cd65f9a579e43b2dcd2aa826120f",
+    "icons/059_meet.png": "b0c338a7801bc2261cbc9f997b37281b4fb4346ef21c92b2828c38a108e89c97",
+    "icons/060_my_pixel.png": "228b9744aa62f05eaa568848bbf0de7232b9163c0f2c452084e9833f932b9c5c",
+    "icons/061_nhl_fantasy_stars.png": "852aa2b1122d8c30d98583069ead0de3d4e89b203a0309ce6504119b34150217",
+    "icons/062_nest.png": "810732a55cf9d002a81a07516e5044ee4923f13a9a9ebb143807f167ee175b3d",
+    "icons/063_now_playing.png": "8b4e98ce1ca393cf38b67276e2192813cce362a3223a6a8693e875a6a6ba0e4a",
+    "icons/064_open_office_viewer.png": "8bb86d968b913cc78144598593c2a88042d30ee1d80d8233d032f7e3d5acba42",
+    "icons/065_proton_mail.png": "d740f9ff4c6a7969bcb1a39839e304829d6d24dc0b5cd7cba60eea00991b940e",
+    "icons/066_preply.png": "31921acdf14c4e8b582b7b7c5459916976c354eba257ecb8c997781bc01d9116",
+    "icons/067_photos.png": "5c71ef56b84a3df477c2753ca94ebd15aa57166bc91d1fd0c3494fa623c9e5c2",
+    "icons/068_passwords.png": "427e732f90fb72bd7320aaf56877889124da1d61e07a8cd213053dc9956e2d6c",
+    "icons/069_paypal.png": "264a244e9e47491e56b2283c9910e6f972056ee73feb3a46a5d0e881d630ef65",
+    "icons/070_play_store.png": "19d1f18c507dc99e8cf1ee7bc0757ea8a8d623031e765d4f58eabd6fdfee3756",
+    "icons/071_phone.png": "6e65e81f5d590f154b794a0bb0fc5dffdbc77cc62a1fb1fb5cb597a05a3fb764",
+    "icons/072_panera.png": "5c05c95a379f945ff1e9b25fca3011d8e0a031d48001552e2d2771651c70c054",
+    "icons/073_parkmobile.png": "42f3854e1075a05be0a123395d980b5e20417f67e076cb15cae218265361661e",
+    "icons/074_parkwhiz.png": "e12491403e31067577dea88055c98be47d30363a390f61d15f3a7d8deec39203",
+    "icons/075_patreon.png": "7d750467a0a31bc533f2f49e91368f1bb3e92d4960df77627986d79818eb0573",
+    "icons/076_protection_360.png": "88355f5abf1bd4095353ef14ddb2dfc6562889535d509e9f6ff98bd38af0e66a",
+    "icons/077_pure_essence_icons.png": "0cf689c33e8ba63882319463313afd2a3f57c505d2c111f98da15f9ecf4edd43",
+    "icons/078_pixel_studio.png": "77d1c039f23dd9160e073532641ab50e19721cb0213710763646d9d5fb82018c",
+    "icons/079_robinhood.png": "cb4d00258db7ed22f3b32d3bfad9eb66c5f7b1d08ee41ad435d533f1515e1239",
+    "icons/080_ring.png": "09d24da89924622e4aecd4cd75448ee3c8a5720fbbe87a0f462f9d68b948844b",
+    "icons/081_rocket_mortgage.png": "90817061dd55eedf04daccd661e7310b72a6e22de8faba02fbc6ab1b821d86f4",
+    "icons/082_signal.png": "12ef8af55b80b275c71f551fd98d51554a144b373684f85177abbfb4389998e9",
+    "icons/083_steam.png": "b872a2de76e4c67fc8d536ea2f7a75a2f378ed594e840160ad742a859ec9fb48",
+    "icons/084_settings.png": "8c615f011a8e507aa8814d54d5d90c47db079fbf94a20c32fed2069d5d657013",
+    "icons/085_schwab.png": "cf1ccdd39f86b2559af6a3ca838d279cf368946ef4f17669a9c86a90269d5dc2",
+    "icons/086_skullcandy.png": "e4aecde8d6638f0a3b7956583d02cbefc2782a6bc085e409f50f2e8caf855354",
+    "icons/087_soundhound.png": "b934eca2d6a588f69373946a3b7c996116da96b122ea651fc301cb4018338394",
+    "icons/088_surest.png": "018b3a8be39c213f1cf60c31a6a5cef9f419f01e0a931a30c823376b5a97d76e",
+    "icons/089_sound_amplifier.png": "93aa2ec0b9f85837d64f86480127673dcfa01ce34f621e42d6980bd601f63115",
+    "icons/090_safety.png": "49bc5f23af8bdfb4c6a1696aa776c64ceee290be09974924de12ffc38187044c",
+    "icons/091_screenshots.png": "88ff3e7ba72046a1c593e5361a49b81a96612590c9d1182fd2f61f5bce287e6a",
+    "icons/092_t_life.png": "ac73b0459043c8539c22bdf5f04028ab4446cf37cacd34f885e46d836b19cc3c",
+    "icons/093_t_mobile_fiber.png": "eadc163c9ba7237231c5ad26027c75e67b8a58f5a712a66acf417e39b32b7577",
+    "icons/094_tailscale.png": "9b908a02644c06078afb52ce075920a1789f55560006892daa3cf029513ace86",
+    "icons/095_tvtropes.png": "3269b4c65896462ea794cb79fae5891781a0495067c856c963473c56b3406a79",
+    "icons/096_travelers.png": "f35fcfb78f1942b50b4a383180ef634a1dc0e035c1db60a9d7d6664eceaa1b70",
+    "icons/097_ticketmaster.png": "066aebb788f674d8e5d1a2a31f566fc9e754a59434dd91c95f7e706094088e62",
+    "icons/098_toshiba_ac_na.png": "e89a25fc8e4ed3995f8d361a23e274db0fd90a6331f91cff69966df3d870d6dc",
+    "icons/099_uchealth.png": "5d864e682272f484940542f99741af7f72ed093b6cd8c6a66c58aac3926cad69",
+    "icons/100_vivaldi.png": "635e04ef77dcbd7442969a729e62dd756f54c6139064768a122eeb69c1352e2e",
+    "icons/101_venmo.png": "afa3cb8b6f7977ddda4198c970c8205e435fb7a417b0a3d25a457fd1e4348b2f",
+    "icons/102_volleygirls.png": "b6df93992e01703a2e4340b17826153bcf9077484319f41eb7e3304839b198be",
+    "icons/103_wallet.png": "5c35f22c273b22d440c3bbb29349f112de41eb95e19440a45000c06547ff1df7",
+    "icons/104_whatsapp.png": "63dc45145def25c097efd2cff8502faaa61e98ed277d7799e53be13c11e105ae",
+    "icons/105_weatherfront.png": "66aee8aae7e71d4639f2e206018dee737d1cc8e255c722b6c19355d3d0b78e87",
+    "icons/106_xbox.png": "dd9d3c6148574285efb815134f8326a403b1678704b619c58d8ba9e7e16b472a",
+    "icons/107_youtube.png": "1b0e9bdddbe01da4b83c718ae8b884110e821e9a194ff23eb50b5692df1fe817",
+    "icons/108_yt_music.png": "df98c58cf6be544dbfd33ab51f8f1500d83684d9cb8a2d92a84b1bdea7385588",
+    "icons/109_zoom.png": "2d54a263f6cfe12565e074cf1910cf2b7aeb6abc6a546840156ac13ef99e31dd",
+    "icons/110_duolingo.png": "6296d982a19751a5e3c45fcbe2b595ffb26aab54726bda4b0e3c6d4a6f64d2ac",
+    "inventory.csv": "fbddc1a7a2821a1014f463b073a244f1f57d0371b549c0bfba2d3dc34a0c57ad",
+    "manifest.csv": "5f00f3fddf1293beec032d11500d16fe2986f83298f5ee988c9a990e9a5c0cb4",
+    "masters/engraved_nameplate_standard.png": "663ddb8b9476428db70f8f576068d179be439e033b3d58e50d9c272196f3561b",
+    "masters/ornate_style_A_crest_restored_center.png": "e8bf1d2b838e7fcc7a7f91a26cba7a38f29f6869798baf906ba11ef7403874d3"
+  },
+  "icons": [
+    {
+      "resource": "fox_001_amazon_shopping",
+      "source": "icons/001_amazon_shopping.png",
+      "sha256": "ef1502c8e8f3e1761e33d1173460188403000c424989eb581e66ba64b7b45255"
+    },
+    {
+      "resource": "fox_002_affirm",
+      "source": "icons/002_affirm.png",
+      "sha256": "57488f61eb4fd72090a5307c02e7f0def4566b24cef8cd3e287f146716c94920"
+    },
+    {
+      "resource": "fox_003_antennapod",
+      "source": "icons/003_antennapod.png",
+      "sha256": "70c4d6d10cc0158953adf228041e70c926163de0a96e5109acc396f43220f013"
+    },
+    {
+      "resource": "fox_004_authenticator",
+      "source": "icons/004_authenticator.png",
+      "sha256": "55893e01a61352da35549f62499e58aa65ace4c5fd5c99c0327a220cc2ab14fe"
+    },
+    {
+      "resource": "fox_005_axs",
+      "source": "icons/005_axs.png",
+      "sha256": "26a4a8a58ddfc37b033d959115e75b2f8a41b6f41557d46da923a9d0953f26f1"
+    },
+    {
+      "resource": "fox_006_anker_soundcore",
+      "source": "icons/006_anker_soundcore.png",
+      "sha256": "5b62c0fe5391e696bed608fd906b54f1c6eb8bfbe201281626af709f6344e266"
+    },
+    {
+      "resource": "fox_007_bose",
+      "source": "icons/007_bose.png",
+      "sha256": "735581974768ec8678e549b59d8563ffbd044dfba2f60ce9ad56a6faaeebd32b"
+    },
+    {
+      "resource": "fox_008_banking",
+      "source": "icons/008_banking.png",
+      "sha256": "973b3020d2eebb91a7bbe7baf22748e9320c8aa99e27b2f5544ab1045b028f51"
+    },
+    {
+      "resource": "fox_009_chatgpt",
+      "source": "icons/009_chatgpt.png",
+      "sha256": "7ec7953821d826bb556230112c7c78c206700422fed32a8319dd863438d2d1f5"
+    },
+    {
+      "resource": "fox_010_credit_one",
+      "source": "icons/010_credit_one.png",
+      "sha256": "a232399a2c0f37e34a594f42cf34d7c4ad4c77e4fa374e87d135d8066b775688"
+    },
+    {
+      "resource": "fox_011_calculator",
+      "source": "icons/011_calculator.png",
+      "sha256": "a6f069ef01eff75abea8595781454210579b777d6edc9bd2eb104fc31055bf6d"
+    },
+    {
+      "resource": "fox_012_camera",
+      "source": "icons/012_camera.png",
+      "sha256": "88a5ec648a8b262dff3f2c562fa55c7321a45b87d1b698a643c76223c60a156c"
+    },
+    {
+      "resource": "fox_013_clock",
+      "source": "icons/013_clock.png",
+      "sha256": "6da6310d56a4975709f1cff9b58192eabc89931fea2dc1fceb7fbf690e9f6246"
+    },
+    {
+      "resource": "fox_014_chrome",
+      "source": "icons/014_chrome.png",
+      "sha256": "da0ba6b8bd4a6bcc17a9f8a202d06ec2c4cf1cb954a8c24d8855849c980d9ddb"
+    },
+    {
+      "resource": "fox_015_calendar",
+      "source": "icons/015_calendar.png",
+      "sha256": "4742cd5522561ff95730e4f251566a9ae88dca13fed9501b99daf10dc1571749"
+    },
+    {
+      "resource": "fox_016_capital_one",
+      "source": "icons/016_capital_one.png",
+      "sha256": "5c67fd22db51b2a09e4176a2f849f65ededa8f07874b5c4c077ee2e99f2cbe06"
+    },
+    {
+      "resource": "fox_017_contacts",
+      "source": "icons/017_contacts.png",
+      "sha256": "ea3843e53629fdc0e212155659486d8bea93ba23a7c01eb0d7a63f580bd25b47"
+    },
+    {
+      "resource": "fox_018_drive",
+      "source": "icons/018_drive.png",
+      "sha256": "370de4a60e4fec5207c62974407cf1d0258bd206550f76757c9892854b780de8"
+    },
+    {
+      "resource": "fox_019_dazn",
+      "source": "icons/019_dazn.png",
+      "sha256": "5afd0918c88b6d41282c1b4bb3cf72becd4fc55b63fc1274b58e3368031e10a2"
+    },
+    {
+      "resource": "fox_020_deepl",
+      "source": "icons/020_deepl.png",
+      "sha256": "c6542228d0f7b820ebe1dc998db8bfbc3fa2eaa314608410c0600800d33a4470"
+    },
+    {
+      "resource": "fox_021_ebay",
+      "source": "icons/021_ebay.png",
+      "sha256": "3d54867a549faa771b7d078b960f9c206a17c7534d560f58be39f9a305a21a9c"
+    },
+    {
+      "resource": "fox_022_elevenreader",
+      "source": "icons/022_elevenreader.png",
+      "sha256": "6b72dd903206701c0b34885c9bf433af0f899314535b0975e7a9e0def3e2350e"
+    },
+    {
+      "resource": "fox_023_expressvpn",
+      "source": "icons/023_expressvpn.png",
+      "sha256": "8103e280f884e4b1a58e7ad253c589d4c8c5be8aad550270e484822a7b42711c"
+    },
+    {
+      "resource": "fox_024_eight_sleep",
+      "source": "icons/024_eight_sleep.png",
+      "sha256": "4a37cd3c5ac6eec88e67abe6ebc8f6bd128ebc8fed70694faee43237d4f15898"
+    },
+    {
+      "resource": "fox_025_elevenlabs",
+      "source": "icons/025_elevenlabs.png",
+      "sha256": "b33cc05c1995c36da7c0baa333fa19bda468a05982b8224a7055481064d1a497"
+    },
+    {
+      "resource": "fox_026_fidelity",
+      "source": "icons/026_fidelity.png",
+      "sha256": "ae7145cfd643cbf0f84613183e4fbb19084a5a2280ccc629e99d87fcd3540ec7"
+    },
+    {
+      "resource": "fox_027_files",
+      "source": "icons/027_files.png",
+      "sha256": "595e2b66b3a444535e7155d38985e976867bdb22e233e89940f4fdb879496091"
+    },
+    {
+      "resource": "fox_028_factor",
+      "source": "icons/028_factor.png",
+      "sha256": "f96092c6ac3bf7964e09bc1984cafeeffdc5b18411dc9d06d092952e97aa7c12"
+    },
+    {
+      "resource": "fox_029_foodsby",
+      "source": "icons/029_foodsby.png",
+      "sha256": "5ee4b15596b77da4fef15f09672ddebcd5bb40292a0fc56cd442cadb1bed6823"
+    },
+    {
+      "resource": "fox_030_ford",
+      "source": "icons/030_ford.png",
+      "sha256": "deb9672192393728411c3b0e4ad251f8b9866b5f32b68628c383fab774c128bb"
+    },
+    {
+      "resource": "fox_031_feedback",
+      "source": "icons/031_feedback.png",
+      "sha256": "3781c5fa6b27f4855d14e1ee254d5cc82fa34641bae215f81e8d142b64561736"
+    },
+    {
+      "resource": "fox_032_find_hub",
+      "source": "icons/032_find_hub.png",
+      "sha256": "5e5f32cc94d6d7e8552a8084e0b12ac13b0f8edf55955060851186f3642154e6"
+    },
+    {
+      "resource": "fox_033_grubhub",
+      "source": "icons/033_grubhub.png",
+      "sha256": "a4b94ed3f938b3a587cad7a6857a650d24d7ca8a8c26dcad87555f88eda10945"
+    },
+    {
+      "resource": "fox_034_gemini",
+      "source": "icons/034_gemini.png",
+      "sha256": "bebc736bace7ae7d652f27237fee05085d987ec7416e6fcfed6960ac5a7577ed"
+    },
+    {
+      "resource": "fox_035_gmail",
+      "source": "icons/035_gmail.png",
+      "sha256": "d18354a483b45115b4c66515b5fa1b7583e66e57d407fc8cf835cce0e7e3ca2f"
+    },
+    {
+      "resource": "fox_036_google",
+      "source": "icons/036_google.png",
+      "sha256": "83200797bdea1818282e65810fa505d068c7a181ded955c983484d969b847a19"
+    },
+    {
+      "resource": "fox_037_google_tv",
+      "source": "icons/037_google_tv.png",
+      "sha256": "e8a6216e3bc36af4c8905b0d2aef15e1f782807d04900cf74673e66997b9ad77"
+    },
+    {
+      "resource": "fox_038_gboard",
+      "source": "icons/038_gboard.png",
+      "sha256": "b36e52c2e44dbfb0848102697930d7cc29b4d580b8e3bdc8189446825b874d8d"
+    },
+    {
+      "resource": "fox_039_hue",
+      "source": "icons/039_hue.png",
+      "sha256": "027479f433533fb5195e383f390aa2d305f81202cda150342bb0481423fabee9"
+    },
+    {
+      "resource": "fox_040_happen_bank",
+      "source": "icons/040_happen_bank.png",
+      "sha256": "631ef7f87e178b221de2570eab4fa547622bc2af1704aaee81c74edffcdb00d5"
+    },
+    {
+      "resource": "fox_041_home",
+      "source": "icons/041_home.png",
+      "sha256": "5ebe0356b790983fc04ac67b945670ca202a66a6e2673bf6109520e627c20f59"
+    },
+    {
+      "resource": "fox_042_hholove",
+      "source": "icons/042_hholove.png",
+      "sha256": "3cb32e5e1416b7cfb94490bde6240a3b0a6e470c9e406c40d3444cbf7dd97669"
+    },
+    {
+      "resource": "fox_043_hid_mobile_access",
+      "source": "icons/043_hid_mobile_access.png",
+      "sha256": "5f67b25ef17c3083a1a491a3892aba8e1bc22e4062e2a58762192565d19d46d3"
+    },
+    {
+      "resource": "fox_044_hp",
+      "source": "icons/044_hp.png",
+      "sha256": "f1bdbc5b8d614fbeedef41b015eb482608758b8523c1229de204d4b2574c1f0a"
+    },
+    {
+      "resource": "fox_045_identity_defender",
+      "source": "icons/045_identity_defender.png",
+      "sha256": "ee5770bb1c0965666acd9134cbdfaee89c8b79a1b5a8cbb9f8dfc4e659ea91c0"
+    },
+    {
+      "resource": "fox_046_immich",
+      "source": "icons/046_immich.png",
+      "sha256": "164d4f961ca9341a1dc468761286bfd2ad1297904ff3011cd7eaab290162f015"
+    },
+    {
+      "resource": "fox_047_indeed_job_search",
+      "source": "icons/047_indeed_job_search.png",
+      "sha256": "5d0d13ee9b28a6d73b7c06911220a5ddcaf417d871966e6ef04b9acaa9f23b3e"
+    },
+    {
+      "resource": "fox_048_intellidrive_365",
+      "source": "icons/048_intellidrive_365.png",
+      "sha256": "16f58fde91e7b558a8feb204703c27f7406b1d2b35b45a37f7283550184cf5bf"
+    },
+    {
+      "resource": "fox_049_irobot",
+      "source": "icons/049_irobot.png",
+      "sha256": "e92a38d2f7f6dc82cd97148af88952d6fdc0f19f5deca32fe71bae91fd0e1ad7"
+    },
+    {
+      "resource": "fox_050_jellyfin",
+      "source": "icons/050_jellyfin.png",
+      "sha256": "d56dce9880c4e38f20027e558973f3f165e07fcfdb0e68cafd7baae68cc381a7"
+    },
+    {
+      "resource": "fox_051_klarna",
+      "source": "icons/051_klarna.png",
+      "sha256": "01732119b3fd8e666c4e09361d21a60f2ea7cfa794060be9487ddfd9e40cbf7c"
+    },
+    {
+      "resource": "fox_052_keep_notes",
+      "source": "icons/052_keep_notes.png",
+      "sha256": "533d1c6228bf97bdecc55fb2fce24dfc0276a7647a46b0d78ace5fab747b3fa7"
+    },
+    {
+      "resource": "fox_053_kobo_books",
+      "source": "icons/053_kobo_books.png",
+      "sha256": "760446bac3e7bf2312ecbc8c4ebcf5d1740cb3e677142ba5b0d582acf0d67725"
+    },
+    {
+      "resource": "fox_054_linkedin",
+      "source": "icons/054_linkedin.png",
+      "sha256": "0b8b854dc973dd98369fa6730b0a6d502dd446ab9aa25b3b3640161b59c39953"
+    },
+    {
+      "resource": "fox_055_messages",
+      "source": "icons/055_messages.png",
+      "sha256": "6e073a71380ed5121cab3a13dccd699f9f5d462ee5b68b50a312bbdafae91705"
+    },
+    {
+      "resource": "fox_056_mapquest",
+      "source": "icons/056_mapquest.png",
+      "sha256": "5c61b6cc83c2394833a4bb9666b4e54b4a7d11bff2768cb770ece9bebef955a8"
+    },
+    {
+      "resource": "fox_057_maps",
+      "source": "icons/057_maps.png",
+      "sha256": "bc068e01a98d28ff8eead01d2770c71c63e9a4af9dcda29e9665e735960ec349"
+    },
+    {
+      "resource": "fox_058_monarch",
+      "source": "icons/058_monarch.png",
+      "sha256": "0100a0fafe6a7a7a39c87d028f13071cae67cd65f9a579e43b2dcd2aa826120f"
+    },
+    {
+      "resource": "fox_059_meet",
+      "source": "icons/059_meet.png",
+      "sha256": "b0c338a7801bc2261cbc9f997b37281b4fb4346ef21c92b2828c38a108e89c97"
+    },
+    {
+      "resource": "fox_060_my_pixel",
+      "source": "icons/060_my_pixel.png",
+      "sha256": "228b9744aa62f05eaa568848bbf0de7232b9163c0f2c452084e9833f932b9c5c"
+    },
+    {
+      "resource": "fox_061_nhl_fantasy_stars",
+      "source": "icons/061_nhl_fantasy_stars.png",
+      "sha256": "852aa2b1122d8c30d98583069ead0de3d4e89b203a0309ce6504119b34150217"
+    },
+    {
+      "resource": "fox_062_nest",
+      "source": "icons/062_nest.png",
+      "sha256": "810732a55cf9d002a81a07516e5044ee4923f13a9a9ebb143807f167ee175b3d"
+    },
+    {
+      "resource": "fox_063_now_playing",
+      "source": "icons/063_now_playing.png",
+      "sha256": "8b4e98ce1ca393cf38b67276e2192813cce362a3223a6a8693e875a6a6ba0e4a"
+    },
+    {
+      "resource": "fox_064_open_office_viewer",
+      "source": "icons/064_open_office_viewer.png",
+      "sha256": "8bb86d968b913cc78144598593c2a88042d30ee1d80d8233d032f7e3d5acba42"
+    },
+    {
+      "resource": "fox_065_proton_mail",
+      "source": "icons/065_proton_mail.png",
+      "sha256": "d740f9ff4c6a7969bcb1a39839e304829d6d24dc0b5cd7cba60eea00991b940e"
+    },
+    {
+      "resource": "fox_066_preply",
+      "source": "icons/066_preply.png",
+      "sha256": "31921acdf14c4e8b582b7b7c5459916976c354eba257ecb8c997781bc01d9116"
+    },
+    {
+      "resource": "fox_067_photos",
+      "source": "icons/067_photos.png",
+      "sha256": "5c71ef56b84a3df477c2753ca94ebd15aa57166bc91d1fd0c3494fa623c9e5c2"
+    },
+    {
+      "resource": "fox_068_passwords",
+      "source": "icons/068_passwords.png",
+      "sha256": "427e732f90fb72bd7320aaf56877889124da1d61e07a8cd213053dc9956e2d6c"
+    },
+    {
+      "resource": "fox_069_paypal",
+      "source": "icons/069_paypal.png",
+      "sha256": "264a244e9e47491e56b2283c9910e6f972056ee73feb3a46a5d0e881d630ef65"
+    },
+    {
+      "resource": "fox_070_play_store",
+      "source": "icons/070_play_store.png",
+      "sha256": "19d1f18c507dc99e8cf1ee7bc0757ea8a8d623031e765d4f58eabd6fdfee3756"
+    },
+    {
+      "resource": "fox_071_phone",
+      "source": "icons/071_phone.png",
+      "sha256": "6e65e81f5d590f154b794a0bb0fc5dffdbc77cc62a1fb1fb5cb597a05a3fb764"
+    },
+    {
+      "resource": "fox_072_panera",
+      "source": "icons/072_panera.png",
+      "sha256": "5c05c95a379f945ff1e9b25fca3011d8e0a031d48001552e2d2771651c70c054"
+    },
+    {
+      "resource": "fox_073_parkmobile",
+      "source": "icons/073_parkmobile.png",
+      "sha256": "42f3854e1075a05be0a123395d980b5e20417f67e076cb15cae218265361661e"
+    },
+    {
+      "resource": "fox_074_parkwhiz",
+      "source": "icons/074_parkwhiz.png",
+      "sha256": "e12491403e31067577dea88055c98be47d30363a390f61d15f3a7d8deec39203"
+    },
+    {
+      "resource": "fox_075_patreon",
+      "source": "icons/075_patreon.png",
+      "sha256": "7d750467a0a31bc533f2f49e91368f1bb3e92d4960df77627986d79818eb0573"
+    },
+    {
+      "resource": "fox_076_protection_360",
+      "source": "icons/076_protection_360.png",
+      "sha256": "88355f5abf1bd4095353ef14ddb2dfc6562889535d509e9f6ff98bd38af0e66a"
+    },
+    {
+      "resource": "fox_077_pure_essence_icons",
+      "source": "icons/077_pure_essence_icons.png",
+      "sha256": "0cf689c33e8ba63882319463313afd2a3f57c505d2c111f98da15f9ecf4edd43"
+    },
+    {
+      "resource": "fox_078_pixel_studio",
+      "source": "icons/078_pixel_studio.png",
+      "sha256": "77d1c039f23dd9160e073532641ab50e19721cb0213710763646d9d5fb82018c"
+    },
+    {
+      "resource": "fox_079_robinhood",
+      "source": "icons/079_robinhood.png",
+      "sha256": "cb4d00258db7ed22f3b32d3bfad9eb66c5f7b1d08ee41ad435d533f1515e1239"
+    },
+    {
+      "resource": "fox_080_ring",
+      "source": "icons/080_ring.png",
+      "sha256": "09d24da89924622e4aecd4cd75448ee3c8a5720fbbe87a0f462f9d68b948844b"
+    },
+    {
+      "resource": "fox_081_rocket_mortgage",
+      "source": "icons/081_rocket_mortgage.png",
+      "sha256": "90817061dd55eedf04daccd661e7310b72a6e22de8faba02fbc6ab1b821d86f4"
+    },
+    {
+      "resource": "fox_082_signal",
+      "source": "icons/082_signal.png",
+      "sha256": "12ef8af55b80b275c71f551fd98d51554a144b373684f85177abbfb4389998e9"
+    },
+    {
+      "resource": "fox_083_steam",
+      "source": "icons/083_steam.png",
+      "sha256": "b872a2de76e4c67fc8d536ea2f7a75a2f378ed594e840160ad742a859ec9fb48"
+    },
+    {
+      "resource": "fox_084_settings",
+      "source": "icons/084_settings.png",
+      "sha256": "8c615f011a8e507aa8814d54d5d90c47db079fbf94a20c32fed2069d5d657013"
+    },
+    {
+      "resource": "fox_085_schwab",
+      "source": "icons/085_schwab.png",
+      "sha256": "cf1ccdd39f86b2559af6a3ca838d279cf368946ef4f17669a9c86a90269d5dc2"
+    },
+    {
+      "resource": "fox_086_skullcandy",
+      "source": "icons/086_skullcandy.png",
+      "sha256": "e4aecde8d6638f0a3b7956583d02cbefc2782a6bc085e409f50f2e8caf855354"
+    },
+    {
+      "resource": "fox_087_soundhound",
+      "source": "icons/087_soundhound.png",
+      "sha256": "b934eca2d6a588f69373946a3b7c996116da96b122ea651fc301cb4018338394"
+    },
+    {
+      "resource": "fox_088_surest",
+      "source": "icons/088_surest.png",
+      "sha256": "018b3a8be39c213f1cf60c31a6a5cef9f419f01e0a931a30c823376b5a97d76e"
+    },
+    {
+      "resource": "fox_089_sound_amplifier",
+      "source": "icons/089_sound_amplifier.png",
+      "sha256": "93aa2ec0b9f85837d64f86480127673dcfa01ce34f621e42d6980bd601f63115"
+    },
+    {
+      "resource": "fox_090_safety",
+      "source": "icons/090_safety.png",
+      "sha256": "49bc5f23af8bdfb4c6a1696aa776c64ceee290be09974924de12ffc38187044c"
+    },
+    {
+      "resource": "fox_091_screenshots",
+      "source": "icons/091_screenshots.png",
+      "sha256": "88ff3e7ba72046a1c593e5361a49b81a96612590c9d1182fd2f61f5bce287e6a"
+    },
+    {
+      "resource": "fox_092_t_life",
+      "source": "icons/092_t_life.png",
+      "sha256": "ac73b0459043c8539c22bdf5f04028ab4446cf37cacd34f885e46d836b19cc3c"
+    },
+    {
+      "resource": "fox_093_t_mobile_fiber",
+      "source": "icons/093_t_mobile_fiber.png",
+      "sha256": "eadc163c9ba7237231c5ad26027c75e67b8a58f5a712a66acf417e39b32b7577"
+    },
+    {
+      "resource": "fox_094_tailscale",
+      "source": "icons/094_tailscale.png",
+      "sha256": "9b908a02644c06078afb52ce075920a1789f55560006892daa3cf029513ace86"
+    },
+    {
+      "resource": "fox_095_tvtropes",
+      "source": "icons/095_tvtropes.png",
+      "sha256": "3269b4c65896462ea794cb79fae5891781a0495067c856c963473c56b3406a79"
+    },
+    {
+      "resource": "fox_096_travelers",
+      "source": "icons/096_travelers.png",
+      "sha256": "f35fcfb78f1942b50b4a383180ef634a1dc0e035c1db60a9d7d6664eceaa1b70"
+    },
+    {
+      "resource": "fox_097_ticketmaster",
+      "source": "icons/097_ticketmaster.png",
+      "sha256": "066aebb788f674d8e5d1a2a31f566fc9e754a59434dd91c95f7e706094088e62"
+    },
+    {
+      "resource": "fox_098_toshiba_ac_na",
+      "source": "icons/098_toshiba_ac_na.png",
+      "sha256": "e89a25fc8e4ed3995f8d361a23e274db0fd90a6331f91cff69966df3d870d6dc"
+    },
+    {
+      "resource": "fox_099_uchealth",
+      "source": "icons/099_uchealth.png",
+      "sha256": "5d864e682272f484940542f99741af7f72ed093b6cd8c6a66c58aac3926cad69"
+    },
+    {
+      "resource": "fox_100_vivaldi",
+      "source": "icons/100_vivaldi.png",
+      "sha256": "635e04ef77dcbd7442969a729e62dd756f54c6139064768a122eeb69c1352e2e"
+    },
+    {
+      "resource": "fox_101_venmo",
+      "source": "icons/101_venmo.png",
+      "sha256": "afa3cb8b6f7977ddda4198c970c8205e435fb7a417b0a3d25a457fd1e4348b2f"
+    },
+    {
+      "resource": "fox_102_volleygirls",
+      "source": "icons/102_volleygirls.png",
+      "sha256": "b6df93992e01703a2e4340b17826153bcf9077484319f41eb7e3304839b198be"
+    },
+    {
+      "resource": "fox_103_wallet",
+      "source": "icons/103_wallet.png",
+      "sha256": "5c35f22c273b22d440c3bbb29349f112de41eb95e19440a45000c06547ff1df7"
+    },
+    {
+      "resource": "fox_104_whatsapp",
+      "source": "icons/104_whatsapp.png",
+      "sha256": "63dc45145def25c097efd2cff8502faaa61e98ed277d7799e53be13c11e105ae"
+    },
+    {
+      "resource": "fox_105_weatherfront",
+      "source": "icons/105_weatherfront.png",
+      "sha256": "66aee8aae7e71d4639f2e206018dee737d1cc8e255c722b6c19355d3d0b78e87"
+    },
+    {
+      "resource": "fox_106_xbox",
+      "source": "icons/106_xbox.png",
+      "sha256": "dd9d3c6148574285efb815134f8326a403b1678704b619c58d8ba9e7e16b472a"
+    },
+    {
+      "resource": "fox_107_youtube",
+      "source": "icons/107_youtube.png",
+      "sha256": "1b0e9bdddbe01da4b83c718ae8b884110e821e9a194ff23eb50b5692df1fe817"
+    },
+    {
+      "resource": "fox_108_yt_music",
+      "source": "icons/108_yt_music.png",
+      "sha256": "df98c58cf6be544dbfd33ab51f8f1500d83684d9cb8a2d92a84b1bdea7385588"
+    },
+    {
+      "resource": "fox_109_zoom",
+      "source": "icons/109_zoom.png",
+      "sha256": "2d54a263f6cfe12565e074cf1910cf2b7aeb6abc6a546840156ac13ef99e31dd"
+    },
+    {
+      "resource": "fox_110_duolingo",
+      "source": "icons/110_duolingo.png",
+      "sha256": "6296d982a19751a5e3c45fcbe2b595ffb26aab54726bda4b0e3c6d4a6f64d2ac"
+    }
+  ]
+}

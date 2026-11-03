@@ -1,0 +1,116 @@
+FOX TRIBE — Niagara screenshot inventory
+109 apps visible in the nine screenshots. Duolingo is a separately requested addition (110 total).
+Niagara Launcher “Recently installed” is a launcher action, not counted as an app.
+
+001. Amazon Shopping
+002. Affirm
+003. AntennaPod
+004. Authenticator
+005. AXS
+006. Anker soundcore
+007. Bose
+008. Banking
+009. ChatGPT
+010. Credit One
+011. Calculator
+012. Camera
+013. Clock
+014. Chrome
+015. Calendar
+016. Capital One
+017. Contacts
+018. Drive
+019. DAZN
+020. DeepL
+021. eBay
+022. ElevenReader
+023. ExpressVPN
+024. Eight Sleep
+025. ElevenLabs
+026. Fidelity
+027. Files
+028. Factor_
+029. Foodsby
+030. Ford
+031. Feedback
+032. Find Hub
+033. Grubhub
+034. Gemini
+035. Gmail
+036. Google
+037. Google TV
+038. Gboard
+039. Hue
+040. Happen Bank
+041. Home
+042. HHOLOVE
+043. HID Mobile Access
+044. HP
+045. Identity Defender
+046. Immich
+047. Indeed Job Search
+048. IntelliDrive® 365
+049. iRobot
+050. Jellyfin
+051. Klarna
+052. Keep Notes
+053. Kobo Books
+054. LinkedIn
+055. Messages
+056. MapQuest
+057. Maps
+058. Monarch
+059. Meet
+060. My Pixel
+061. NHL Fantasy Stars
+062. Nest
+063. Now Playing
+064. Open Office Viewer
+065. Proton Mail
+066. Preply
+067. Photos
+068. Passwords
+069. PayPal
+070. Play Store
+071. Phone
+072. Panera
+073. ParkMobile
+074. ParkWhiz
+075. Patreon
+076. Protection 360
+077. Pure Essence Icons
+078. Pixel Studio
+079. Robinhood
+080. Ring
+081. Rocket Mortgage
+082. Signal
+083. Steam
+084. Settings
+085. Schwab
+086. Skullcandy
+087. SoundHound
+088. Surest
+089. Sound Amplifier
+090. Safety
+091. Screenshots
+092. T-Life
+093. T-Mobile Fiber
+094. Tailscale
+095. TVTropes
+096. Travelers
+097. Ticketmaster
+098. Toshiba AC NA
+099. UCHealth
+100. Vivaldi
+101. Venmo
+102. VolleyGirls
+103. Wallet
+104. WhatsApp
+105. WeatherFront
+106. XBOX
+107. YouTube
+108. YT Music
+109. Zoom
+
+ADDITIONAL REQUESTED APP
+110. Duolingo
