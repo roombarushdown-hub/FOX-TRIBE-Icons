@@ -7,13 +7,27 @@ printf 'no\n' | timeout 90 "$ANDROID_HOME/cmdline-tools/latest/bin/avdmanager" c
 EMU_PID=$!
 trap 'kill "$EMU_PID" 2>/dev/null || true' EXIT
 ADB="$ANDROID_HOME/platform-tools/adb"
-timeout 150 "$ADB" wait-for-device
+# The runner may need several minutes for a cold emulator boot. Keep the
+# wait bounded and preserve diagnostics instead of silently timing out.
+if ! timeout 360 "$ADB" wait-for-device; then
+  echo "FAIL: emulator did not appear in adb within 360 seconds" | tee verification/emulator-result.txt
+  "$ADB" devices -l > verification/adb-devices.txt 2>&1 || true
+  ps auxww > verification/processes.txt || true
+  tail -n 150 verification/emulator.log || true
+  exit 1
+fi
 BOOTED=0
 for attempt in $(seq 1 180); do
   if [[ "$("$ADB" shell getprop sys.boot_completed 2>/dev/null | tr -d '\r')" == 1 ]]; then BOOTED=1; break; fi
   sleep 2
 done
-[[ "$BOOTED" == 1 ]]
+if [[ "$BOOTED" != 1 ]]; then
+  echo "FAIL: emulator connected but Android did not finish booting" | tee verification/emulator-result.txt
+  "$ADB" devices -l > verification/adb-devices.txt 2>&1 || true
+  "$ADB" logcat -d -t 300 > verification/boot-logcat.txt 2>&1 || true
+  tail -n 150 verification/emulator.log || true
+  exit 1
+fi
 "$ADB" shell input keyevent 82
 "$ADB" install app/build/outputs/apk/debug/app-debug.apk | tee verification/install.txt
 "$ADB" shell am start -W -n com.foxtribe.icons/.MainActivity | tee verification/launch.txt
